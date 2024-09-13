@@ -3,8 +3,9 @@ package ui.main.ui.top.rightOptions
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
@@ -22,12 +23,14 @@ fun AddFolderCompose() {
     ) {
         Row {
             TextField(
+                modifier = Modifier.width(180.dp),
                 value = GlobalModel.viewStatus.editTextAddWindow.value,
                 onValueChange = { s->
                     GlobalModel.viewStatus.editTextAddWindow.value = s
                 }
             )
-            LazyRow (
+            LazyVerticalGrid (
+                GridCells.Fixed(3),
                 Modifier.padding(10.dp, 0.dp)
             ) {
                 items(GlobalModel.resPathDefault) { item->
