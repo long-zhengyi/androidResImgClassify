@@ -23,6 +23,7 @@
 ![6.webp](https://raw.githubusercontent.com/long-zhengyi/MyPics/main/ReadMe_ARIC/6.webp)
 
 拖动其他尺寸图片到已归类图片，添加更多尺寸，这一步会将拖入图片命名为与已添加图片相同的文件名
+
 ![7.webp](https://raw.githubusercontent.com/long-zhengyi/MyPics/main/ReadMe_ARIC/7.webp)
 
 选择目标目录
