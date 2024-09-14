@@ -42,7 +42,7 @@ fun BodyLeftCompose() {
         }
         Button(
             {
-                val folder = File("C:/Users/SYQB/Documents/documents/resClassify")
+                val folder = File(GlobalModel.RES_PATH)
                 if (folder.exists() && Desktop.isDesktopSupported()) {
                     Desktop.getDesktop().open(folder)
                 }
