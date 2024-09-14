@@ -1,4 +1,4 @@
-package ui.main.ui.body
+package ui.main.mainScreen.body
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Divider
@@ -6,9 +6,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import ui.main.ui.body.center.BodyCenterCompose
-import ui.main.ui.body.left.BodyLeftCompose
-import ui.main.ui.body.right.BodyRightCompose
+import ui.main.mainScreen.body.center.BodyCenterCompose
+import ui.main.mainScreen.body.left.BodyLeftCompose
 
 @Composable
 fun BodyCompose() {

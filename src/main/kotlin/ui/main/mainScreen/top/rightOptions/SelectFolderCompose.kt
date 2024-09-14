@@ -1,4 +1,4 @@
-package ui.main.ui.top.rightOptions
+package ui.main.mainScreen.top.rightOptions
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

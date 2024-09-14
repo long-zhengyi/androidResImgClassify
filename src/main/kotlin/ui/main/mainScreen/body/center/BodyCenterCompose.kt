@@ -1,4 +1,4 @@
-package ui.main.ui.body.center
+package ui.main.mainScreen.body.center
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -10,7 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import ui.GlobalModel
-import ui.main.ui.body.center.item.BodyCenterItem
+import ui.main.mainScreen.body.center.item.BodyCenterItem
 import ui.main.util.exts.onDropFile
 
 @Composable

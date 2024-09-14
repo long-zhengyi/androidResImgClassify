@@ -1,4 +1,4 @@
-package ui.main.ui.body.center.item
+package ui.main.mainScreen.body.center.item
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

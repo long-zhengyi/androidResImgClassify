@@ -1,4 +1,4 @@
-package ui.main.ui.body.left
+package ui.main.mainScreen.body.left
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

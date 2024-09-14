@@ -1,4 +1,4 @@
-package ui.main.ui.body.right
+package ui.main.mainScreen.body.right
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -9,7 +9,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import ui.GlobalModel
-import ui.main.events.FileMover
 import ui.main.util.exts.onDropFile
 
 @Composable

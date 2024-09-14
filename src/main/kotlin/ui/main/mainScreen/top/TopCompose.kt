@@ -1,4 +1,4 @@
-package ui.main.ui.top
+package ui.main.mainScreen.top
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Button
@@ -7,8 +7,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import ui.GlobalModel
-import ui.main.ui.top.rightOptions.AddFolderCompose
-import ui.main.ui.top.rightOptions.SelectFolderCompose
+import ui.main.mainScreen.top.rightOptions.AddFolderCompose
+import ui.main.mainScreen.top.rightOptions.SelectFolderCompose
 
 @Composable
 fun TopCompose() {
